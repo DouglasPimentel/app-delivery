@@ -1,0 +1,128 @@
+.wrapper-login {
+  height: 100vh;
+  padding: 1rem;
+	background-color: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-login .container {
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--bg-secondary);
+  border-radius: 1.25rem;
+  box-shadow: 5px 10px 10px rgba(182, 182, 182, 0.05);
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-login .container .header h1 {
+  margin-bottom: 0.625rem;
+  font-size: 2rem;
+  color: var(--gray-800);
+  line-height: 2.375rem;
+  font-weight: 400;
+}
+
+.wrapper-login .container .header p {
+  margin-bottom: 2.063rem;
+  font-size: 1rem;
+  color: var(--gray-400);
+  line-height: 1.188rem;
+  font-weight: 400;
+}
+
+.wrapper-login .container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.wrapper-login .container:hover {
+  background-color: var(--white-ice);
+}
+
+.input-group {
+  position: relative;
+}
+
+
+.input-group i {
+  opacity: 1;
+  position: absolute;
+  z-index: 1;
+  left: 8px;
+  top: 10px;
+  font-size: 1.625rem;
+  color: var(--gray-200);
+}
+
+.input-group .input {
+  width: 100%;
+  height: 2.875rem;
+  padding: 0 0.625rem 0 2.5rem;
+  background-color: var(--white-700);
+  font-size: 1rem;
+  line-height: 1.188rem;
+  font-weight: 400;
+  border: 0.063rem solid var(--gray-200);
+  border-radius: 0.625rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.input-group input:first-child {
+  margin-bottom: 1.25rem;
+}
+
+.input-group .input::placeholder {
+  color: var(--gray-200);
+}
+
+
+.input-group .input:focus, .input-group .input:focus.input::placeholder {
+  color: var(--gray-800);
+  border-color: var(--gray-800);
+}
+
+.submit {
+  width: 100%;
+  height: 3.063rem;
+  background-color: var(--gray-300);
+  font-size: 1rem;
+  line-height: 1.188rem;
+  font-weight: 400;
+  border: 0.063rem solid var(--gray-300);
+  border-radius: 0.625rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit i {
+  font-size: 2.4rem;
+}
+
+.submit:hover {
+  background-color: var(--gray-500);
+}
+
+@media (min-width: 768px) {
+  .wrapper-login {
+    padding: 0;
+  }
+
+  .wrapper-login .container {
+    width: 28.982rem;
+    height: 25rem;
+    padding: 3rem 3.75rem;
+  }
+
+  .submit {
+    width: 11.313rem;
+  }
+}

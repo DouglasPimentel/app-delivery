@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* colors */
+  --bg-primary: #BAB9BA;
+  --bg-secondary: rgba(237, 237, 237, 0.2);
+  --black: #000000;
+  --blue:#442CD7;
+  --red: #A8362D;
+  --gray-200: #BAB9BA;
+  --gray-300: #CCCCCC;
+  --gray-400: #7C797E;
+  --gray-500: #A7A7A7;
+  --gray-800: #383838;
+  --white-700: #F7F7F7;
+  --white-ice: #EDEDED;
+}
+  
+body {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.button {
+  width: 8rem;
+  height: 3.063rem;
+  background-color: var(--gray-300);
+  font-size: 1rem;
+  line-height: 1.188rem;
+  font-weight: 400;
+  border: 0.063rem solid var(--gray-300);
+  border-radius: 0.625rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input, input:focus {
+  outline: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.error {
+  font-size: 0.875rem;
+  color: var(--red);
+}

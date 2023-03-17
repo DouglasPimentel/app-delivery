@@ -1,0 +1,32 @@
+#submenu {
+    width: 248px;
+    height: 100vh;
+    padding: 1rem 1rem 1rem 25px;
+    background-color: var(--white-ice);
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: -65%;
+    z-index: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+#submenu .menu-title {
+    margin: 13px 0 96px 0;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+#submenu .submenu-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+}
+
+#submenu .submenu-wrapper .submenu-wrapper__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

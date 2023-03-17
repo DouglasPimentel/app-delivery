@@ -1,0 +1,9 @@
+<nav id="submenu" *ngIf="openMenu && submenus">
+  <h3 class="menu-title">{{ menuTitle }}</h3>
+  <ul class="submenu-wrapper">
+    <li class="submenu-wrapper__item" *ngFor="let submenu of submenus">
+      <span>{{ submenu.name }}</span>
+      <i class="input-icon material-icons">keyboard_arrow_right</i>
+    </li>
+  </ul>
+</nav>

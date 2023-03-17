@@ -1,0 +1,19 @@
+<nav id="menu" *ngIf="menus">
+  <ul class="menu-wrapper">
+    <li class="menu-wrapper__item" *ngFor="let menu of menus | async">
+      <button 
+        type="button"
+        (click)="handleOpenSubmenu()"
+      >
+        <div class="{{ openSubmenu ? 'icon-menu-active' : 'icon-menu' }}"></div>
+        <span>{{ menu.name }}</span>
+      </button>
+      <app-submenu 
+        [openMenu]="openSubmenu" 
+        [menuTitle]="menu.name" 
+        [submenus]="menu.submenus"
+      >
+      </app-submenu>
+    </li>
+  </ul>
+</nav>

@@ -1,0 +1,37 @@
+#menu .menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+#menu .menu-wrapper .menu-wrapper__item button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#menu .menu-wrapper .menu-wrapper__item button .icon-menu, #menu .menu-wrapper .menu-wrapper__item button .icon-menu-active {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu .menu-wrapper .menu-wrapper__item button .icon-menu {
+  background-color: var(--gray-200);
+}
+
+#menu .menu-wrapper .menu-wrapper__item button .icon-menu-active {
+  background-color: var(--blue);
+}
+
+#menu .menu-wrapper .menu-wrapper__item button span {
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+}

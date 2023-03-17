@@ -1,0 +1,45 @@
+<section class="wrapper-login">
+  <div class="container">
+    <div class="header">
+      <h1>Bem-vindo</h1>
+      <p>Faça login na sua conta</p>
+    </div>
+    <form 
+      [formGroup]="formGroup"
+      (ngSubmit)="onSubmit()" 
+    >
+      <div class="input-group">
+        <i class="input-icon material-icons">account_circle</i>
+        <input 
+          class="input"
+          type="text" 
+          name="username" 
+          id="username"
+          formControlName="username"
+          placeholder="Usuário"
+        />
+      </div>
+      <div class="input-group">
+        <i class="input-icon material-icons">lock</i>
+        <input 
+          class="input"
+          type="password" 
+          name="password" 
+          id="password" 
+          formControlName="password"
+          placeholder="Senha" 
+        />
+      </div>
+      <div class="error" *ngIf="error">
+        <span>{{ error }}</span>
+      </div>
+      <button 
+        class="submit" 
+        type="submit"
+      >
+        <span>Acessar conta</span> 
+        <i class="input-icon material-icons">arrow_right</i>
+      </button>
+    </form>
+  </div>
+</section>

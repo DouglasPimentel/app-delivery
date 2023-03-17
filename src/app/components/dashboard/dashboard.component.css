@@ -1,0 +1,13 @@
+.dashboard-wrapper {
+  display: flex;
+}
+
+.dashboard-wrapper main {
+  padding: 1rem 0 0 3rem;
+}
+
+.dashboard-wrapper main h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}

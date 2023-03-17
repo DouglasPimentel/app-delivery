@@ -1,0 +1,68 @@
+[
+  {
+    "menu_id": "-NQMbBC-hbxmvKJu7nC1",
+    "name": "Americano",
+    "uri": "/americano",
+    "submenus": [
+      {
+        "submenu_id": "-NQMbBC-hbxmvKJu7nC11",
+        "name": "Costela",
+        "uri": "/americano/costela"
+      },
+      {
+        "submenu_id": "-NQMbBC-hbxmvKJu7nC12",
+        "name": "Donuts",
+        "uri": "/americano/donuts"
+      },
+      {
+        "submenu_id": "-NQMbBC-hbxmvKJu7nC12",
+        "name": "Hamburguer",
+        "uri": "/americano/hamburguer"
+      }
+    ]
+  },
+  {
+    "menu_id": "-NQMbBC-hbxmvKJu7nC2",
+    "name": "Arabe",
+    "uri": "/arabe",
+    "submenus": [
+      {
+        "submenu_id": "-NQMbBC-hbxmvKJu7nC21",
+        "name": "Charuto",
+        "uri": "/arabe/charuto"
+      },
+      {
+        "submenu_id": "-NQMbBC-hbxmvKJu7nC22",
+        "name": "Esfiha",
+        "uri": "/arabe/esfiha"
+      },
+      {
+        "submenu_id": "-NQMbBC-hbxmvKJu7nC23",
+        "name": "Homus",
+        "uri": "/arabe/homus"
+      }
+    ]
+  },
+  {
+    "menu_id": "-NQMbBC-hbxmvKJu7nC3",
+    "name": "Brasileiro",
+    "uri": "/brasileiro",
+    "submenus": [
+      {
+        "submenu_id": "-NQMbBC-hbxmvKJu7nC31",
+        "name": "Arroz Birobiro",
+        "uri": "/brasileiro/arroz-birobiro"
+      },
+      {
+        "submenu_id": "-NQMbBC-hbxmvKJu7nC32",
+        "name": "Bife a Cavalo",
+        "uri": "/brasileiro/bife-a-cavalo"
+      },
+      {
+        "submenu_id": "-NQMbBC-hbxmvKJu7nC33",
+        "name": "Bife Acebolado",
+        "uri": "/brasileiro/bife-acebolado"
+      }
+    ]
+  }
+]
